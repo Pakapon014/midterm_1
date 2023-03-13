@@ -25,9 +25,9 @@ namespace midterm {
             double a1 = w1 * h1 * 4;
             double a2 = w2 * h2 * 4;
             
-            if (a1 - a2 > 8  ) {
+            if (a1 - a2 > 8 ) {
                 Console.WriteLine("Too Much Overlaping");
-            } else if (a1 - a2 < 8) {
+            } else if (a1 - a2 < 8 ) {
                 Console.WriteLine("Not Much Overlapping");
             } else {
                 Console.WriteLine("No Overlapping");
